@@ -14,7 +14,7 @@ layout:
 
 # Feature Matrix
 
-<table><thead><tr><th>Feature</th><th width="67" data-type="checkbox">Status</th><th>Description</th><th>Proposed Syntax</th></tr></thead><tbody><tr><td>Full Properties</td><td>false</td><td>Currently, only auto properties are supported. We need to also add support for defining full properties with a getter and a setter.</td><td><pre><code>property PlayerREF: Actor {
+<table><thead><tr><th>Feature</th><th width="67" data-type="checkbox">Status</th><th>Description</th><th>Proposed Syntax</th></tr></thead><tbody><tr><td>Full Properties (v1.0.2-alpha.1)</td><td>true</td><td>Currently, only auto properties are supported. We need to also add support for defining full properties with a getter and a setter.</td><td><pre><code>property PlayerREF: Actor {
     get { // ... }
     set { // ... }
 }
