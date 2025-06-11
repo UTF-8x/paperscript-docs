@@ -11,9 +11,27 @@ A script is contained in a `script` block. This is equivalent to `ScriptName ext
 script Demo : ObjectReference {}
 ```
 
+### Properties
+
+A property is a script-scoped variable that's available to external scripts. A property itself does not actually store anything, it's an interface between a script's private variable and the outside world.
+
+```csharp
+_player: Actor = None // a private variable
+
+property Player: Actor {
+    get {
+        return _player
+    }
+    
+    set {
+        _player = value // value is a special variable that refers to the setter value
+    }
+}
+```
+
 ### Auto Properties
 
-Auto properties are properties that can be "filled" from Creation Kit. An auto property starts with `auto property` and then follows the regular variable format. They can optionally have a default value.
+Auto properties represent a private variable and a basic setter like the one above. An auto property starts with `auto property` and then follows the regular variable format. They can optionally have a default value.
 
 ```rust
 auto property PlayerREF: Actor
