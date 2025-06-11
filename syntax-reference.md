@@ -159,6 +159,17 @@ while someCondition {
 }
 ```
 
+### Increment / Decrement
+
+PaperScript has a simple implementation of the increment and decrement operators. It's basically just shorthand for adding or subtracting 1 from an int.
+
+```
+number: Int = 0
+
+number++ // Equivalent to number += 1
+number-- // Equivalent to number -= 1
+```
+
 ### Switch
 
 A `switch` is one of the features sorely missing from Papyrus. PaperScript supports `switch` statements that get translated into if/elseif/else in the resulting Papyrus.

@@ -16,3 +16,7 @@
 ## Proposals
 
 * [Naive Optimizations](proposals/naive-optimizations.md)
+
+## Miscellaneous
+
+* [Complete Example Scripts](miscellaneous/complete-example-scripts.md)
