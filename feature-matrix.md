@@ -20,4 +20,5 @@ layout:
 }
 </code></pre></td></tr><tr><td>AutoReadOnly Properties</td><td>false</td><td>Add support for AutoReadOnly</td><td><pre><code>auto readonly property PlayerREF: Actor
 </code></pre></td></tr><tr><td>Conditional Properties</td><td>false</td><td>Add support for Conditional</td><td><pre><code>auto conditional property PlayerREF: Actor
-</code></pre></td></tr><tr><td>Various Naive Optimizations</td><td>false</td><td>See <a data-mention href="proposals/naive-optimizations.md">naive-optimizations.md</a></td><td></td></tr></tbody></table>
+</code></pre></td></tr><tr><td>Various Naive Optimizations</td><td>false</td><td>See <a data-mention href="proposals/naive-optimizations.md">naive-optimizations.md</a></td><td></td></tr><tr><td>Script Flags</td><td>false</td><td>Hidde / Conditional</td><td><code>hidden script ...</code> <code>conditional script ...</code></td></tr><tr><td>Variable Flags</td><td>false</td><td>Conditional</td><td><code>conditional someBool: Bool = true</code></td></tr><tr><td>Function Flags</td><td>false</td><td>Native, Global</td><td><code>native def abc()...</code> <code>global def abc()...</code></td></tr></tbody></table>
+
