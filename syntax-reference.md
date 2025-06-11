@@ -29,6 +29,26 @@ state OtherState {
 }
 ```
 
+### Imports
+
+Importing a script allows you to use its Global functions without having to prefix them with the script name.
+
+{% hint style="info" %}
+See the [CK Wiki Import Reference](https://ck.uesp.net/wiki/Script_File_Structure#Imports) for more info
+{% endhint %}
+
+```
+import Debug
+
+def Demo() {
+    // Without Import
+    Debug.MessageBox("Hello World")
+    
+    // With Import
+    MessageBox("Hello World")
+}
+```
+
 ### Properties
 
 A property is a script-scoped variable that's available to external scripts. A property itself does not actually store anything, it's an interface between a script's private variable and the outside world.
