@@ -135,8 +135,10 @@ event OnInit() {}
 
 The If/ElseIf/Else syntax is virtually identical to Papyrus but with braces. Parentheses are optional and only used to denote precedence.
 
-{% hint style="danger" %}
-`elseif` does not work correctly as of `v1.0.1-alpha.1` , this is a known issue that will be fixed
+{% hint style="success" %}
+~~`elseif` does not work correctly as of `v1.0.1-alpha.1` , this is a known issue that will be fixed~~
+
+Should work correctly as of `v1.0.3-alpha.1`
 {% endhint %}
 
 ```rust
