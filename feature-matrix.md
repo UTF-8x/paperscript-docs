@@ -18,7 +18,7 @@ layout:
     get { // ... }
     set { // ... }
 }
-</code></pre></td></tr><tr><td>AutoReadOnly Properties</td><td>false</td><td>Add support for AutoReadOnly</td><td><pre><code>auto readonly property PlayerREF: Actor
-</code></pre></td></tr><tr><td>Conditional Properties</td><td>false</td><td>Add support for Conditional</td><td><pre><code>auto conditional property PlayerREF: Actor
-</code></pre></td></tr><tr><td>Various Naive Optimizations</td><td>false</td><td>See <a data-mention href="proposals/naive-optimizations.md">naive-optimizations.md</a></td><td></td></tr><tr><td>Script Flags</td><td>false</td><td>Hidde / Conditional</td><td><code>hidden script ...</code> <code>conditional script ...</code></td></tr><tr><td>Variable Flags</td><td>false</td><td>Conditional</td><td><code>conditional someBool: Bool = true</code></td></tr><tr><td>Function Flags</td><td>false</td><td>Native, Global</td><td><code>native def abc()...</code> <code>global def abc()...</code></td></tr></tbody></table>
+</code></pre></td></tr><tr><td>AutoReadOnly Properties (v1.0.2-alpha.1)</td><td>true</td><td>Add support for AutoReadOnly</td><td><pre><code>auto readonly property PlayerREF: Actor
+</code></pre></td></tr><tr><td>Conditional Properties (v1.0.2-alpha.1)</td><td>true</td><td>Add support for Conditional</td><td><pre><code>auto conditional property PlayerREF: Actor
+</code></pre></td></tr><tr><td>Various Naive Optimizations</td><td>false</td><td>See <a data-mention href="proposals/naive-optimizations.md">naive-optimizations.md</a></td><td></td></tr><tr><td>Script Flags (v1.0.2-alpha.1)</td><td>true</td><td>Hidden / Conditional</td><td><code>hidden script ...</code> <code>conditional script ...</code></td></tr><tr><td>Variable Flags (v1.0.2-alpha.1)</td><td>true</td><td>Conditional</td><td><code>conditional someBool: Bool = true</code></td></tr><tr><td>Function Flags (v1.0.2-alpha.1)</td><td>true</td><td>Native, Global</td><td><code>native def abc()...</code> <code>global def abc()...</code></td></tr></tbody></table>
 
