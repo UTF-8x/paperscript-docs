@@ -11,6 +11,24 @@ A script is contained in a `script` block. This is equivalent to `ScriptName ext
 script Demo : ObjectReference {}
 ```
 
+### States
+
+A state is a block with a name and an optional `auto` flag.
+
+{% hint style="info" %}
+See the [CK Wiki State Documentation](https://ck.uesp.net/wiki/States_\(Papyrus\)) for more in-depth information
+{% endhint %}
+
+```
+auto state DefaultState {
+  // ...
+}
+
+state OtherState {
+  // ...
+}
+```
+
 ### Properties
 
 A property is a script-scoped variable that's available to external scripts. A property itself does not actually store anything, it's an interface between a script's private variable and the outside world.
